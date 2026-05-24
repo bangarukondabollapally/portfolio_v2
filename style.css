@@ -23,6 +23,14 @@ html, body {
     letter-spacing: -4px;
 }
 
+.contact-right h1{
+    font-size: 120px;
+}
+
+.contact-right h2{
+    font-size: 40px;
+}
+
 .nav {
     position: fixed;
     top: 30px;
