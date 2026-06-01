@@ -66,7 +66,7 @@ export default function Navbar() {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 h-16 z-[9980] border-b transition-colors duration-300 flex items-center justify-between px-6 md:px-12 lg:px-20 ${
+      className={`fixed top-0 left-0 right-0 h-20 z-[9980] border-b transition-colors duration-300 flex items-center justify-between px-8 md:px-16 lg:px-28 ${
         hasScrolled
           ? 'bg-[var(--bg)]/80 backdrop-blur-md border-[var(--border)]'
           : 'bg-transparent border-transparent'

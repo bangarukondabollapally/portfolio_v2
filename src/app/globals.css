@@ -208,3 +208,46 @@ textarea:focus-visible {
   z-index: 9990;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
+
+/* GPU-Accelerated Scrolling Marquees */
+@keyframes marquee-left {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes marquee-right {
+  0% { transform: translate3d(-50%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.marquee-inner {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+  will-change: transform;
+}
+
+.marquee-inner.direction-left {
+  animation: marquee-left linear infinite;
+}
+
+.marquee-inner.direction-right {
+  animation: marquee-right linear infinite;
+}
+
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+.speed-slow {
+  animation-duration: 40s;
+}
+
+.speed-medium {
+  animation-duration: 30s;
+}
+
+.speed-fast {
+  animation-duration: 50s;
+}
+

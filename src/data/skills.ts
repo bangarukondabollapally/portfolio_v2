@@ -21,7 +21,7 @@ export const skillsData: SkillRow[] = [
       'Python',
       'TypeScript',
       'React',
-      'Next.js',
+      // 'Next.js',
       'FastAPI',
       'Supabase',
       'PostgreSQL',

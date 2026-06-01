@@ -16,14 +16,14 @@ export const projects: Project[] = [
   },
   {
     number: '02',
-    name: 'AI Agent (LCEL)',
+    name: 'AI City Assistant',
     type: 'Open Source',
     year: '2024',
-    description: 'Multi-tool agentic assistant for real-time city queries. LangChain agent dynamically routes between weather API and news search based on query intent — built custom tool-use routing from scratch.',
+    description: 'Multi-tool agentic assistant for real-time city queries. LangChain agent dynamically routes between weather API and news search based on query intent — built tool-use routing from scratch.',
     tech: ['Python', 'LangChain', 'OpenAI', 'FastAPI', 'Tavily'],
     projectUrl: null,
-    sourceUrl: 'https://github.com/bangarukondabollapally/ai-agent-lcel',
-    images: ['/images/projects/ai-agent-lcel.png'],
+    sourceUrl: 'https://github.com/bangarukondabollapally/ai-city-assistant',
+    images: ['/images/projects/ai-city-assistant.png'], // Authentic screenshot now active
     showProjectLink: false
   }
 ];
