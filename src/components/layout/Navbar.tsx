@@ -66,7 +66,7 @@ export default function Navbar() {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 h-20 z-[9980] border-b transition-colors duration-300 flex items-center justify-between px-8 md:px-16 lg:px-28 ${
+      className={`fixed top-0 left-0 right-0 h-20 z-[9980] border-b transition-colors duration-300 flex items-center justify-between px-6 md:px-10 ${
         hasScrolled
           ? 'bg-[var(--bg)]/80 backdrop-blur-md border-[var(--border)]'
           : 'bg-transparent border-transparent'
@@ -82,11 +82,11 @@ export default function Navbar() {
         className="font-technical-meta text-[14px] font-bold tracking-[0.15em] text-[var(--text-primary)] select-none cursor-pointer"
         data-cursor="link"
       >
-        BK<span className="text-[var(--accent)]">.</span>
+        Bangaru Konda<span className="text-[var(--accent)]">.</span>
       </a>
 
       {/* Navigation links */}
-      <nav aria-label="Main navigation" className="flex items-center space-x-6 md:space-x-8">
+      <nav aria-label="Main navigation" className="flex items-center gap-6 md:gap-10">
         {navItems.map((item) => {
           const isActive = activeSection === item.href.replace('#', '');
           

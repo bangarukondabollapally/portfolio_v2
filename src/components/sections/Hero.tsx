@@ -89,7 +89,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={containerRef}
-      className="relative min-h-screen w-full flex flex-col justify-center bg-[var(--bg)] overflow-hidden pt-28 pb-20 px-8 md:px-16 lg:px-28"
+      className="relative min-h-screen w-full flex flex-col justify-center bg-[var(--bg)] overflow-hidden pt-28 pb-20 px-6 md:px-10"
       aria-label="Introduction Hero"
     >
       {/* 

@@ -4,7 +4,6 @@ import { NavItem, Social, Capability } from '@/types';
 export const siteMeta = {
   name: 'Bangaru Konda',
   role: 'AI Engineer',
-  location: 'Hyderabad, India',
   tagline: 'Turning complex LLMs into intuitive, high-performance products.',
   email: 'bollapallybangarukonda@gmail.com',
   seo: {

@@ -33,10 +33,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="w-full bg-[var(--bg-surface)] border-t border-[var(--border)] py-28 px-8 md:px-16 lg:px-28"
+      className="w-full bg-[var(--bg-surface)] border-t border-[var(--border)] py-16 px-6 md:px-10"
       aria-label="About and Capabilities"
     >
-      <div className="max-w-[1400px] w-full mx-auto flex flex-col gap-20">
+      <div className="max-w-[1400px] w-full mx-auto flex flex-col gap-8">
         
         {/* Upper Editorial Row: Split 12-column Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
@@ -81,7 +81,7 @@ export default function About() {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true, amount: 0.15 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mt-10 pt-16 border-t border-[var(--border)]"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-6 pt-8 border-t border-[var(--border)]"
         >
           {capabilities.map((cap) => (
             <motion.div

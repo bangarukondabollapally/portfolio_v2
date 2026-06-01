@@ -15,10 +15,10 @@ export default function Skills() {
   return (
     <section
       id="stack"
-      className="w-full bg-[var(--bg)] border-t border-[var(--border)] py-28 overflow-hidden relative"
+      className="w-full bg-[var(--bg)] border-t border-[var(--border)] py-16 overflow-hidden relative"
       aria-label="Technical Stack Marquee"
     >
-      <div className="max-w-[1400px] mx-auto px-8 md:px-16 lg:px-28 mb-16 flex flex-col gap-6">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10 mb-8 flex flex-col gap-4">
         <SectionLabel label="Stack" withDot={true} />
         
         <h2 className="font-headline text-[var(--text-primary)] tracking-[-0.03em] leading-tight">

@@ -55,7 +55,7 @@ function ProjectRow({ project, index }: ProjectRowProps) {
   return (
     <div
       ref={rowRef}
-      className="relative min-h-[85vh] lg:min-h-screen w-full flex items-center justify-center border-b border-[var(--border)] py-20 px-8 md:px-16 lg:px-28"
+      className="relative min-h-[70vh] lg:min-h-[85vh] w-full flex items-center justify-center border-b border-[var(--border)] py-12 px-6 md:px-10"
     >
       <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         
@@ -282,7 +282,7 @@ export default function Projects() {
   return (
     <section id="work" className="w-full bg-[var(--bg)] border-t border-[var(--border)] pt-28">
       {/* Editorial Section Header */}
-      <div className="max-w-[1400px] mx-auto px-8 md:px-16 lg:px-28 mb-16 flex flex-col gap-6">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10 mb-8 flex flex-col gap-4">
         <SectionLabel label="Work" withDot={true} />
         
         <h2 className="font-headline text-[var(--text-primary)] tracking-[-0.03em] max-w-3xl leading-tight">
