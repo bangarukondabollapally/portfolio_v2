@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
+    color : black;
 }
 
 html, body {
@@ -236,10 +237,12 @@ html, body {
     padding-top: 100px;
     font-size: 30px;
     margin: 10px;
+    color:white;
 }
 
 .talk h1 {
     font-size: 100px;
+    color: white;
 }
 
 .get-in-touch {
